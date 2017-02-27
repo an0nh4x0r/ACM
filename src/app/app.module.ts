@@ -13,6 +13,7 @@ import { EventsComponent } from './events/events.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { BlogComponent } from './blog/blog.component';
 import { RegisterComponent } from './register/register.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterComponent } from './register/register.component';
     EventsComponent,
     GalleryComponent,
     BlogComponent,
-    RegisterComponent
+    RegisterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { RegisterComponent } from './register/register.component';
       { path: 'events', component: EventsComponent },
       { path: 'gallery', component: GalleryComponent },
       { path: 'blog', component: BlogComponent },
-      { path: 'register', component: RegisterComponent }
+      { path: 'register', component: RegisterComponent },
+      { path: 'contact', component: ContactComponent }
     ])
   ],
   providers: [],

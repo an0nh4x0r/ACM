@@ -1,0 +1,47 @@
+#big_footer {
+  padding: 20px;
+}
+
+.footer_false {
+  background: #2C3E50;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+h3 {
+  color: #7C7C7C;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+li {
+  color: #FFFFFF;
+  list-style: none;
+  margin-left: -40px;
+}
+
+#links li {
+  border-bottom: 1px dashed #7C7C7C;
+}
+
+.bs-left {
+  float: left;
+}
+
+.bs-right {
+  float: right;
+}
+
+.bs-left, .bs-right {
+  color: #7C7C7C;
+}
+
+.panel {
+  background: #233140;
+  margin-bottom: 0;
+}
+
+
