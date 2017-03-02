@@ -14,6 +14,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { BlogComponent } from './blog/blog.component';
 import { RegisterComponent } from './register/register.component';
 import { ContactComponent } from './contact/contact.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -26,14 +28,16 @@ import { ContactComponent } from './contact/contact.component';
     GalleryComponent,
     BlogComponent,
     RegisterComponent,
-    ContactComponent
+    ContactComponent,
+    CarouselComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot([
-      { path: '', component: JumbotronComponent },
+      { path: '', component: IndexComponent },
       { path: 'about', component: AboutComponent },
       { path: 'events', component: EventsComponent },
       { path: 'gallery', component: GalleryComponent },
