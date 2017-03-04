@@ -35,5 +35,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+<script>
+  $(function(){
+    var navMain = $(".navbar-collapse");
+    navMain.on("click", "a:not([data-toggle])", null, function () {
+      navMain.collapse('hide');
+    });
+  });
+</script>
 <script type="text/javascript" src="inline.7bdc94189c95c2013452.bundle.js"></script><script type="text/javascript" src="polyfills.09bd5e712641f0914bae.bundle.js"></script><script type="text/javascript" src="main.f13985989648820712ef.bundle.js"></script></body>
 </html>
